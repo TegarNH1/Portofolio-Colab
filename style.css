@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  height: 6.5rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 29%,
+    rgba(2, 2, 42, 1) 39%,
+    rgba(0, 212, 255, 0) 100%
+  );
+}
+nav ul {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+nav ul li {
+  cursor: pointer;
+  margin-top: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.teks {
+  position: absolute;
+  top: 25%;
+  left: 32%;
+}
+.teks p {
+  font-family: "Yeseva One", serif;
+  opacity: 85%;
+  font-size: 4rem;
+  color: #fff;
+}
+.deskripsi {
+  position: absolute;
+  top: 65%;
+  left: 28%;
+  width: 40rem;
+}
+.deskripsi p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #fff;
+  opacity: 70%;
+  text-align: center;
+}
+.bg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(2, 12, 94, 0) 0%,
+    rgba(0, 1, 13, 1) 100%
+  );
+  position: absolute;
+  top: 89.9%;
+  width: 100%;
+  height: 12rem;
+}
+.video .videobg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+section {
+  margin-top: -0.5rem;
+  background-image: linear-gradient(
+    180deg,
+    hsl(240deg 100% 1%) 0%,
+    hsl(230deg 96% 9%) 25%,
+    hsl(222deg 91% 17%) 63%,
+    hsl(213deg 84% 25%) 80%,
+    hsl(204deg 80% 33%) 88%,
+    hsl(195deg 74% 41%) 93%,
+    hsl(186deg 69% 49%) 96%,
+    hsl(177deg 64% 57%) 98%,
+    hsl(168deg 59% 65%) 99%,
+    hsl(159deg 54% 73%) 100%,
+    hsl(151deg 49% 81%) 100%,
+    hsl(140deg 44% 89%) 100%,
+    hsl(132deg 38% 97%) 100%
+  );
+
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+section .about p {
+  font-size: 48px;
+}
+section p {
+  text-align: center;
+}
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content .img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 40%;
+}
+.about-content .img img {
+  width: 16rem;
+}
+.about-content .desk {
+  width: 70%;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.about-content .desk p {
+  text-align: start;
+}
+.about-content .desk .nama p {
+  font-size: 34px;
+}
+.ihsan {
+  margin-top: -2rem;
+  background: #01113e;
+  background: linear-gradient(
+    0deg,
+    rgba(1, 17, 62, 1) 0%,
+    rgba(58, 205, 210, 1) 100%
+  );
+  display: flex;
+}
+.ihsan .desk {
+  margin-top: 12rem;
+  width: 70%;
+  margin-left: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ihsan .desk p {
+  text-align: start;
+}
+.ihsan .desk .nama p {
+  font-size: 34px;
+}
+.ihsan .img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 40%;
+}
+.ihsan .img img {
+  width: 16rem;
+}
+
+.project {
+  background-color: #01113e;
+  width: 100%;
+  height: 100vh;
+}
+.project p {
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.swiper {
+  width: 90%;
+  height: 80vh;
+  position: relative;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.1);
+}
+
+.swiper-pagination-bullet {
+  background-color: #333 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #ff4081;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #01113e;
+  color: #fff;
+  text-align: center;
+}
+footer hr {
+  margin-bottom: 2rem;
+}
+footer p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .teks {
+    top: -8%;
+    left: 24%;
+  }
+  .teks p {
+    font-size: 3rem;
+  }
+  .deskripsi {
+    top: 28%;
+    left: 8%;
+    width: 40rem;
+  }
+  .deskripsi p {
+    font-size: 0.9rem;
+  }
+  .bg {
+    top: 32%;
+  }
+  .swiper {
+    height: 50vh;
+  }
+
+  .swiper-slide {
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .teks {
+    top: -20%;
+    left: 24%;
+  }
+  .teks p {
+    font-size: 24px;
+  }
+  .deskripsi {
+    top: 14.8%;
+    left: 10%;
+    width: 20rem;
+  }
+  .deskripsi p {
+    font-size: 10px;
+    text-align: justify;
+  }
+  .bg {
+    top: 8%;
+  }
+  section {
+    height: 190vh;
+  }
+  section .about p {
+    font-size: 28px;
+  }
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-content .desk {
+    left: 12%;
+  }
+  .about-content .desk p {
+    text-align: justify;
+  }
+  .about-content .desk .nama p {
+    text-align: center;
+  }
+  .ihsan {
+    flex-direction: column-reverse;
+  }
+  .ihsan .desk {
+    margin-top: -4rem;
+  }
+  .ihsan .desk p {
+    text-align: justify;
+  }
+  .ihsan .desk .nama p {
+    font-size: 34px;
+  }
+  .ihsan .img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 40%;
+  }
+  .ihsan .img img {
+    width: 16rem;
+  }
+}
